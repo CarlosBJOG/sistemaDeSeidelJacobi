@@ -71,6 +71,7 @@ export const Matriz2x2 = () => {
                                 className="form-control form-size" 
                                 placeholder="X" 
                                 name='x1'
+                                autoComplete='off'
                                 value={x1}
                                 onChange={handleInputChange}
                             />
@@ -81,6 +82,8 @@ export const Matriz2x2 = () => {
                                 type="text" 
                                 className="form-control form-size" 
                                 placeholder="Y" 
+                                autoComplete='off'
+
                                 name='y1'
                                 value={y1}
                                 onChange={handleInputChange}
@@ -93,6 +96,8 @@ export const Matriz2x2 = () => {
                                 type="text" 
                                 className="form-control form-size" 
                                 placeholder="K" 
+                                autoComplete='off'
+
                                 name='k1'
                                 onChange={ handleInputChange }
                                 value={k1}

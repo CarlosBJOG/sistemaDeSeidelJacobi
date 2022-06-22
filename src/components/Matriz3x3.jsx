@@ -107,6 +107,8 @@ export const Matriz3x3 = () => {
                         name="x1"
                         value={x1}
                         onChange={handleInputChange}
+                        autoComplete='off'
+
                          
                     />
                 </div>
@@ -118,6 +120,8 @@ export const Matriz3x3 = () => {
                         name="y1"
                         value={y1}
                         onChange={handleInputChange}
+                        autoComplete='off'
+
                          
                     />
                 </div>
@@ -130,6 +134,8 @@ export const Matriz3x3 = () => {
                         name="z1"
                         value={z1}
                         onChange={handleInputChange}
+                        autoComplete='off'
+
                          
                     />
                 </div>
@@ -142,6 +148,8 @@ export const Matriz3x3 = () => {
                         name="k1"
                         value={k1}
                         onChange={handleInputChange}
+                        autoComplete='off'
+
                          
                     />
                 </div>
@@ -153,18 +161,18 @@ export const Matriz3x3 = () => {
 
 
                 <div className="col">
-                    <input type="text" className="form-control form-size" placeholder="X" name="x2" value={x2} onChange={handleInputChange}/>
+                    <input type="text" className="form-control form-size" placeholder="X" name="x2" value={x2} onChange={handleInputChange} autoComplete='off' />
                 </div>
                 <div className="col">
-                    <input type="text" className="form-control form-size" placeholder="Y" name="y2" value={y2} onChange={handleInputChange}/>
+                    <input type="text" className="form-control form-size" placeholder="Y" name="y2" value={y2} onChange={handleInputChange} autoComplete='off'/>
                 </div>
 
                 <div className="col">
-                    <input type="text" className="form-control form-size" placeholder="Z" name="z2" value={z2} onChange={handleInputChange}/>
+                    <input type="text" className="form-control form-size" placeholder="Z" name="z2" value={z2} onChange={handleInputChange} autoComplete='off'/>
                 </div>
                 =
                 <div className="col">
-                    <input type="text" className="form-control form-size" placeholder="K" name="k2" value={k2} onChange={handleInputChange}/>
+                    <input type="text" className="form-control form-size" placeholder="K" name="k2" value={k2} onChange={handleInputChange} autoComplete='off'/>
                 </div>
                 </div>
 
@@ -174,18 +182,18 @@ export const Matriz3x3 = () => {
 
 
                     <div className="col">
-                        <input type="text" className="form-control form-size" placeholder="X" name="x3" value={x3} onChange={handleInputChange}/>
+                        <input type="text" className="form-control form-size" placeholder="X" name="x3" value={x3} onChange={handleInputChange} autoComplete='off'/>
                     </div>
                     <div className="col">
-                        <input type="text" className="form-control form-size" placeholder="Y" name="y3" value={y3} onChange={handleInputChange}/>
+                        <input type="text" className="form-control form-size" placeholder="Y" name="y3" value={y3} onChange={handleInputChange} autoComplete='off'/>
                     </div>
 
                     <div className="col">
-                        <input type="text" className="form-control form-size" placeholder="Z" name="z3" value={z3} onChange={handleInputChange}/>
+                        <input type="text" className="form-control form-size" placeholder="Z" name="z3" value={z3} onChange={handleInputChange} autoComplete='off'/>
                     </div>
                     =
                     <div className="col">
-                        <input type="text" className="form-control form-size" placeholder="K" name="k3" value={k3} onChange={handleInputChange}/>
+                        <input type="text" className="form-control form-size" placeholder="K" name="k3" value={k3} onChange={handleInputChange} autoComplete='off'/>
                     </div>
                 </div>
 
