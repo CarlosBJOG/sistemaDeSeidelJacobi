@@ -1,0 +1,17 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.ml-3 {
+    margin-left: 50px;
+}
+
+.mr-3{
+    margin-right: 20px;
+
+}
+
+.form-size {
+    width: 70%;
+}
